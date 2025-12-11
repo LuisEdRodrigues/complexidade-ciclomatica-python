@@ -15,7 +15,7 @@ pip install Pillow
 Para rodar a versão original do algoritmo, execute o seguinte comando:
 
 ```bash
-python cellular_automata/conways_game_of_life.py
+python ./conways_game_of_life.py
 ```
 
 **Output Esperado:** Um arquivo chamado `out.gif` será gerado no diretório de execução.
@@ -25,7 +25,7 @@ python cellular_automata/conways_game_of_life.py
 Para rodar a versão refatorada do algoritmo, execute o seguinte comando:
 
 ```bash
-python cellular_automata/conways_game_of_life_refactored.py
+python ./conways_game_of_life_refactored.py
 ```
 
 **Output Esperado:** Um arquivo chamado `out_refactored.gif` será gerado no diretório de execução.
