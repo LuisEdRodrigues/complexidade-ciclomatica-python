@@ -53,10 +53,10 @@ A alta Complexidade Ciclomática da função `new_generation` original (CC 19) e
 
 A modificação consistiu em aplicar o padrão de **Extração de Método** (Extract Method):
 
-1.  **Criação da Função Auxiliar `get_live_neighbours`**: Toda a lógica de contagem de vizinhos foi isolada em uma nova função. Esta função utiliza *loops* aninhados para iterar sobre os 8 vizinhos, simplificando a verificação de limites e a contagem.
+1.  **Criação da Função Auxiliar `get_live_neighbours`**: Toda a lógica de contagem de vizinhos foi isolada em uma nova função. Esta função utiliza *loops* aninhados para iterar sobre os 8 vizinhos, simplificando a verificação de limites e a contagem.    
 ![](./screenshots/get_live_neighbours.png)
 
-2.  **Refatoração da Função Principal `new_generation_refactored`**: A função principal foi simplificada para focar exclusivamente na aplicação das regras do Jogo da Vida de Conway, delegando a contagem de vizinhos para a nova função auxiliar.
+2.  **Refatoração da Função Principal `new_generation_refactored`**: A função principal foi simplificada para focar exclusivamente na aplicação das regras do Jogo da Vida de Conway, delegando a contagem de vizinhos para a nova função auxiliar.    
 ![](./screenshots/new_generation.png)
 
 ## Métricas Coletadas (Antes x Depois)
